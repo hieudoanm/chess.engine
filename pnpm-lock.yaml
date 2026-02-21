@@ -51,8 +51,8 @@ importers:
         specifier: 1.9.3
         version: 1.9.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       stockfish:
-        specifier: 18.0.4
-        version: 18.0.4
+        specifier: 18.0.5
+        version: 18.0.5
       zod:
         specifier: 4.3.6
         version: 4.3.6
@@ -3368,8 +3368,8 @@ packages:
     resolution: {integrity: sha512-XlkWvfIm6RmsWtNJx+uqtKLS8eqFbxUg0ZzLXqY0caEy9l7hruX8IpiDnjsLavoBgqCCR71TqWO8MaXYheJ3RQ==}
     engines: {node: '>=10'}
 
-  stockfish@18.0.4:
-    resolution: {integrity: sha512-AXHydUv4jxhAGrSzr3g4/C0pKSzaYmJ/le59Lauq059mrZEPGTY0y2HWa/4iBr/P/Iz8FxpTS2KKsDKDRqKfnQ==}
+  stockfish@18.0.5:
+    resolution: {integrity: sha512-2A8mrlrYT8ovf4y8GIrmzOQZCC2kf01hPeM4xrVZdBeFC/LoZj+MgYLyrwdKXDQWubx1RCiKU9dFDGeDutuT3A==}
     hasBin: true
 
   stop-iteration-iterator@1.1.0:
@@ -7448,7 +7448,7 @@ snapshots:
     dependencies:
       escape-string-regexp: 2.0.0
 
-  stockfish@18.0.4: {}
+  stockfish@18.0.5: {}
 
   stop-iteration-iterator@1.1.0:
     dependencies:
