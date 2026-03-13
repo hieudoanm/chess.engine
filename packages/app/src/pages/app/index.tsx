@@ -8,7 +8,7 @@ import { PieceDataType } from 'react-chessboard';
 
 const START_FEN = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
 
-const HomePage: NextPage = () => {
+const AppPage: NextPage = () => {
 	const gameRef = useRef(new Chess(START_FEN));
 	const [fen, setFen] = useState(START_FEN);
 	const [thinking, setThinking] = useState(false);
@@ -159,4 +159,4 @@ const HomePage: NextPage = () => {
 	);
 };
 
-export default HomePage;
+export default AppPage;
