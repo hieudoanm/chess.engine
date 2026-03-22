@@ -8,13 +8,13 @@ build:
 	go vet ./...
 	go fmt ./...
 	rm -rf ./bin
-	go build -o ./bin/engine ./main.go
+	go build $(LDFLAGS) -o ./bin/engine ./main.go
 
 install:
 	go vet ./...
 	go fmt ./...
 	rm -rf ./bin
-	go build -o ./bin/engine ./main.go
+	go build $(LDFLAGS) -o ./bin/engine ./main.go
 	mkdir -p ~/bin
 	cp ./bin/engine ~/bin/
 	chmod +x ~/bin/engine
