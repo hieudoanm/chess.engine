@@ -56,7 +56,7 @@ type Game struct {
 func main() {
 	g := NewGame()
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("SimpleGoChess — minimal engine. Type 'help' for commands.")
+	fmt.Println("SimpleGoChess — minimal github.com/hieudoanm/chess.engine. Type 'help' for commands.")
 	g.PrintBoard()
 	for {
 		fmt.Print("> ")
@@ -107,9 +107,9 @@ func main() {
 				move := g.EngineMove(depth)
 				elapsed := time.Since(start)
 				if move.from == move.to && move.cap == Empty {
-					fmt.Println("engine found no move")
+					fmt.Println("github.com/hieudoanm/chess.engine found no move")
 				} else {
-					fmt.Printf("engine plays %s (time %s)\n", formatMove(move), elapsed)
+					fmt.Printf("github.com/hieudoanm/chess.engine plays %s (time %s)\n", formatMove(move), elapsed)
 					g.MakeMove(move)
 					g.PrintBoard()
 				}
