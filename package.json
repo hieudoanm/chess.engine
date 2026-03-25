@@ -1,5 +1,5 @@
 {
-  "name": "@chess.engine/workspaces",
+  "name": "@chess.engine/workspace",
   "version": "0.0.1",
   "description": "Chess Engine",
   "keywords": [
