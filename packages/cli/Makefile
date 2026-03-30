@@ -1,7 +1,7 @@
 .PHONY: lint format build install all
 
 BIN_DIR := bin
-BIN_NAME := chess.engine
+BIN_NAME := chess-engine
 SRC := ./main.go
 
 VERSION := $(shell date +%Y.%m.%d.%H.%M.%S)
