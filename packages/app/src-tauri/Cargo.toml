@@ -1,5 +1,5 @@
 [package]
-name = "chess.engine"
+name = "chess-engine"
 version = "0.0.1"
 description = "Chess Engine"
 authors = ["hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)"]
